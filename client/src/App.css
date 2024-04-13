@@ -1,0 +1,233 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.navbar{
+  background-color: #7b49c7;
+  color: white;
+  /* box-shadow: 15px 1px 50px 10px; */
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #7b49c7;
+  box-shadow: 15px 1px 50px 10px;
+}
+
+.footer div{
+  display: flex;
+  justify-content:space-around;
+}
+
+.homeList{
+  list-style: none;
+}
+.studentButton{
+  border: 1px solid;
+  text-decoration: none;
+  background-color: white;
+  /* background-color: #ADBC9F; */
+  color: black;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  height: 50px;
+}
+.studentButton:hover{
+  background-color: #8c6ac0;
+  color:white
+}
+
+.navbarButtons{
+  font-size: x-large;
+  color: white;  
+  cursor: pointer;
+}
+
+.navbarButtons:hover{
+  color:black;
+}
+.linkIcon{
+  text-decoration: none;
+  color: white;  
+  padding: 5px;
+}
+.register{
+  position: absolute;
+  left: 60%;
+  top: 20%;
+  background-color: #7b49c7;
+  /* opacity: 0.5; */
+  border: 1px solid black;
+  padding: 50px;
+}
+.loginpages{
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  background-color: #7b49c7;
+  border: 1px solid black;
+  padding: 50px;
+}
+.feedbackpagesstudent{
+  position: absolute;
+  left: 35%;
+  border: 1px solid black;
+  top:10%;
+  background-color: #7b49c7;
+  /* background-color:white; */
+  padding: 30px;
+  /* opacity: 0.5; */
+}
+
+.invalidmessage{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+
+.form-check{
+  margin: 0.5rem;
+}
+.showreportpage{
+  background-color: #8b7ca1;
+  padding: 50px;
+  margin-top: 3rem;
+  padding: 5rem;
+}
+.oneout{
+  border: 1px solid black;
+}
+
+.repo{
+  font-family:'Times New Roman', Times, serif;
+}
+
+.repo p{
+  font-weight: 900;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+.errorpage{
+  position: absolute;
+  background-color: #a3408e;
+  border: 1px solid black;
+  padding: 50px;
+  height: 820px;
+  width: 2000px;
+}
+.errorpage h4{
+  position: absolute;
+  top: 30%;
+  font-family: cursive;
+  font-size:xx-large;
+  
+}
+#errorlink{
+  color:yellow;
+}
+#errorlink:hover{
+  color:red;
+}
+
+.background{
+  background-image: url("./Images/homebg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+  width: 1000px;
+}
+
+h1{
+  text-align: center;
+}
+
+input:hover{
+  background-color: #FDBF60;
+}
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 350px;
+  /* border: 1px solid skyblue; */
+  text-align: center;
+}
+
+.signUpButton{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  /* background-color: skyblue; */
+  background-color: white;
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 15px;
+  float: right;
+  border: none;
+
+}
+
+.signUpButton:hover{
+  /* background-color: tomato; */
+  background-color: #a77aeb;
+  color:white;
+}
+
+.studentheading{
+  text-align: center;
+  /* text-decoration: underline; */
+  color: white;
+  margin-bottom: 3rem;
+}
+
+
+.feedbackreport{
+  position: absolute;
+  left: 35%;
+  top: 70%;
+  /* margin-left: 30%; */
+  background-color: #427D9D;
+  box-shadow: 5px 5px 5px 5px;
+  padding: 50px;
+}
+
+/* ------------------------------------------------------------------ */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
